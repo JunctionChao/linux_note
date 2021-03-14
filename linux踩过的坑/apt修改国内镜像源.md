@@ -6,9 +6,10 @@
 
 3. 打开源文件进行修改：sudo vim /etc/apt/sources.list
 
-   通过lsb_release -a可以查看版本的codename，每个版本不一样，关联的源也不同，不然后续会出现apt依赖问题
+   通过`lsb_release -a`可以查看版本的codename，每个版本不一样，关联的源也不同，不然后续会出现apt依赖问题
 
-   \#Ubuntu 18.04是 bionic
+   ##### Ubuntu 18.04是 bionic
+   
    deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse 
    deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse 
    deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse 
@@ -16,13 +17,14 @@
    deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse 
    deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse 
    deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse 
-   deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse 
-   deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
-
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+   deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse 
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
    
 
-   \# Ubuntu 20.04是 focal
+   
+   ##### Ubuntu 20.04是 focal
+   
    deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
    deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
    deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse

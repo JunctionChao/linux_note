@@ -10,31 +10,31 @@
 
    ##### Ubuntu 18.04是 bionic
    
-   deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse 
-   deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse 
-   deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse 
+   deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse  
+   deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse  
+   deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse  
    deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse 
-   deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse 
-   deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse 
-   deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse 
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
-   deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse 
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
-   
+   deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse  
+   deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse   
+deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse  
+   deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse  
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse  
+   deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
 
+   
    
    ##### Ubuntu 20.04是 focal
    
-   deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-   deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-   deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-   deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-   deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-   deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-   deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-   deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-   deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
-   deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+   deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse  
+   deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse  
+   deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse  
+   deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse  
+   deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse  
+   deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse  
+   deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse  
+   deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse  
+   deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse  
+   deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse 
    
 4. 更新软件列表：sudo apt-get update
 
